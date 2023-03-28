@@ -53,12 +53,12 @@ public class TestLogowania {
     public void emptyPassword() {
         WebElement myAccountMenuItem = chromeDriver.findElement(Constants.MOJE_KONTO_LOCATOR);
         myAccountMenuItem.click();
-        WebElement inputPassword = chromeDriver.findElement(Constants.PASSWORD_LACOTAR);
-        inputPassword.sendKeys("Test2002?");
+        WebElement inputUsername = chromeDriver.findElement(Constants.LOGIN_LOCATOR);
+        inputUsername.sendKeys("filip4440");
         WebElement buttonLogin = chromeDriver.findElement(Constants.BUTTON_LOGIN_LOCATOR);
         buttonLogin.click();
         WebElement errorNotification = chromeDriver.findElement(Constants.ERROR_LOCALOR);
-        Assertions.assertEquals(Constants.ERROR_MESSAGE_NO_USER, errorNotification.getText());
+        Assertions.assertEquals(Constants.ERROR_MESSAGE_NO_PASSWORD, errorNotification.getText());
     }
 
 }

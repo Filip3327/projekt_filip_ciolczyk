@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35534400-0eae-4f3a-97bb-89da62d77177" name="Changes" comment="Dodano test logowania.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Constants.java" afterDir="false" />
+    <list default="true" id="35534400-0eae-4f3a-97bb-89da62d77177" name="Changes" comment="Gotowy emptyLogin i Constants.java">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRejestracji.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestStronyGlownej.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestLogowania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogowania.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,21 +58,51 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestLogowania">
-    <configuration name="TestLogowania" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestStronyGlownej.checkJumpFromLoginTOMainPage">
+    <configuration name="TestStronyGlownej" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projekt_filip_ciolczyk" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLogowania" />
+      <option name="MAIN_CLASS_NAME" value="TestStronyGlownej" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogowania.emptyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStronyGlownej.checkContactPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projekt_filip_ciolczyk" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestLogowania" />
-      <option name="METHOD_NAME" value="emptyLogin" />
+      <option name="MAIN_CLASS_NAME" value="TestStronyGlownej" />
+      <option name="METHOD_NAME" value="checkContactPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStronyGlownej.checkJumpFromLoginTOMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projekt_filip_ciolczyk" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStronyGlownej" />
+      <option name="METHOD_NAME" value="checkJumpFromLoginTOMainPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStronyGlownej.checkLogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projekt_filip_ciolczyk" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStronyGlownej" />
+      <option name="METHOD_NAME" value="checkLogo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStronyGlownej.checkLogoAndSearchOnLoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projekt_filip_ciolczyk" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStronyGlownej" />
+      <option name="METHOD_NAME" value="checkLogoAndSearchOnLoginPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,8 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestLogowania" />
-        <item itemvalue="JUnit.TestLogowania.emptyLogin" />
+        <item itemvalue="JUnit.TestStronyGlownej.checkJumpFromLoginTOMainPage" />
+        <item itemvalue="JUnit.TestStronyGlownej.checkContactPage" />
+        <item itemvalue="JUnit.TestStronyGlownej" />
+        <item itemvalue="JUnit.TestStronyGlownej.checkLogoAndSearchOnLoginPage" />
+        <item itemvalue="JUnit.TestStronyGlownej.checkLogo" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679946935734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Gotowy emptyLogin i Constants.java">
+      <created>1680020625669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680020625669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update readMe.md" />
     <MESSAGE value="Dodano test logowania." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodano test logowania." />
+    <MESSAGE value="Gotowy emptyLogin i Constants.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gotowy emptyLogin i Constants.java" />
   </component>
 </project>
