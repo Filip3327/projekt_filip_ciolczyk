@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35534400-0eae-4f3a-97bb-89da62d77177" name="Changes" comment="Added constans and test 4,5,6">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestKoszyka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TesteStronyKontakt.java" afterDir="false" />
+    <list default="true" id="35534400-0eae-4f3a-97bb-89da62d77177" name="Changes" comment="Added test 7,8,9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogowania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogowania.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/dev_root/SeleniumSoftieTO012023&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/bakUp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.TestKoszyka.deleteToBasket">
+}]]></component>
+  <component name="RunManager" selected="JUnit.TestLogowania.emptyPassword">
     <configuration name="TestKoszyka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projekt_filip_ciolczyk" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,21 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRejestracji.succefullUserRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogowania.emptyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projekt_filip_ciolczyk" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRejestracji" />
-      <option name="METHOD_NAME" value="succefullUserRegistration" />
+      <option name="MAIN_CLASS_NAME" value="TestLogowania" />
+      <option name="METHOD_NAME" value="emptyLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteStronyKontakt.attemptSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogowania.emptyPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projekt_filip_ciolczyk" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TesteStronyKontakt" />
-      <option name="METHOD_NAME" value="attemptSendMessage" />
+      <option name="MAIN_CLASS_NAME" value="TestLogowania" />
+      <option name="METHOD_NAME" value="emptyPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLogowania.emptyPassword" />
+        <item itemvalue="JUnit.TestLogowania.emptyLogin" />
         <item itemvalue="JUnit.TestKoszyka.deleteToBasket" />
         <item itemvalue="JUnit.TestKoszyka.addToBasket" />
         <item itemvalue="JUnit.TestKoszyka" />
-        <item itemvalue="JUnit.TesteStronyKontakt.attemptSendMessage" />
-        <item itemvalue="JUnit.TestRejestracji.succefullUserRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680034186127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added test 7,8,9">
+      <created>1680205857520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680205857520</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +190,7 @@
     <MESSAGE value="Dodano test logowania." />
     <MESSAGE value="Gotowy emptyLogin i Constants.java" />
     <MESSAGE value="Added constans and test 4,5,6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added constans and test 4,5,6" />
+    <MESSAGE value="Added test 7,8,9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test 7,8,9" />
   </component>
 </project>

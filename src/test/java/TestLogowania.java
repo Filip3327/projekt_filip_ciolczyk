@@ -34,29 +34,44 @@ public class TestLogowania {
         chromeDriver.manage().deleteAllCookies();
     }
 
+    private static void logIn(String user, String password) {
+        WebElement myAccountMenuItem = chromeDriver.findElement(Constants.MOJE_KONTO_LOCATOR);
+        myAccountMenuItem.click();
+        WebElement inputUsername = chromeDriver.findElement(Constants.LOGIN_LOCATOR);
+        inputUsername.sendKeys(user);
+        WebElement inputPassword = chromeDriver.findElement(Constants.PASSWORD_LACOTAR);
+        inputPassword.sendKeys(password);
+        WebElement buttonLogin = chromeDriver.findElement(Constants.BUTTON_LOGIN_LOCATOR);
+        buttonLogin.click();
+
+    }
+
     @Test
     @Description("1. logowania bez podania login")
     public void emptyLogin() {
-        WebElement myAccountMenuItem = chromeDriver.findElement(Constants.MOJE_KONTO_LOCATOR);
-        myAccountMenuItem.click();
-        WebElement inputPassword = chromeDriver.findElement(Constants.PASSWORD_LACOTAR);
-        inputPassword.sendKeys("Test2002?");
-        WebElement buttonLogin = chromeDriver.findElement(Constants.BUTTON_LOGIN_LOCATOR);
-        buttonLogin.click();
-        WebElement errorNotification = chromeDriver.findElement(Constants.ERROR_LOCALOR);
+//        WebElement myAccountMenuItem = chromeDriver.findElement(Constants.MOJE_KONTO_LOCATOR);
+//        myAccountMenuItem.click();
+//        WebElement inputPassword = chromeDriver.findElement(Constants.PASSWORD_LACOTAR);
+//        inputPassword.sendKeys("Test2002?");
+//        WebElement buttonLogin = chromeDriver.findElement(Constants.BUTTON_LOGIN_LOCATOR);
+//        buttonLogin.click();
 
+        logIn("","Test2002?" );
+        WebElement errorNotification = chromeDriver.findElement(Constants.ERROR_LOCALOR);
         Assertions.assertEquals(Constants.ERROR_MESSAGE_NO_USER, errorNotification.getText());
     }
 
     @Test
     @Description("2. logawanie bez podania hasła")
     public void emptyPassword() {
-        WebElement myAccountMenuItem = chromeDriver.findElement(Constants.MOJE_KONTO_LOCATOR);
-        myAccountMenuItem.click();
-        WebElement inputUsername = chromeDriver.findElement(Constants.LOGIN_LOCATOR);
-        inputUsername.sendKeys("filip4440");
-        WebElement buttonLogin = chromeDriver.findElement(Constants.BUTTON_LOGIN_LOCATOR);
-        buttonLogin.click();
+//        WebElement myAccountMenuItem = chromeDriver.findElement(Constants.MOJE_KONTO_LOCATOR);
+//        myAccountMenuItem.click();
+//        WebElement inputUsername = chromeDriver.findElement(Constants.LOGIN_LOCATOR);
+//        inputUsername.sendKeys("filip4440");
+//        WebElement buttonLogin = chromeDriver.findElement(Constants.BUTTON_LOGIN_LOCATOR);
+//        buttonLogin.click();
+
+        logIn("filip4440", "");
         WebElement errorNotification = chromeDriver.findElement(Constants.ERROR_LOCALOR);
         Assertions.assertEquals(Constants.ERROR_MESSAGE_NO_PASSWORD, errorNotification.getText());
     }
