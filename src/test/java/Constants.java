@@ -11,12 +11,12 @@ public class Constants {
      static final By CONTACT_YOUR_EMAIL = By.cssSelector("input[name='your-email']");
      static final By CONTACT_TOPIC  = By.cssSelector("input[name='your-subject']");
      static final By INPUT_SUBMIT = By.cssSelector("input[type='submit']");
-     static final By BUUTON_SUBMIT = By.className("ur-submit-button");
-     static final By SEARCH_FIELD_LOCTAOR = By.id("woocommerce-product-search-field-0");
+     static final By BUTTON_SUBMIT = By.className("ur-submit-button");
+     static final By SEARCH_FIELD_LOCATOR = By.id("woocommerce-product-search-field-0");
      static final By LOGIN_LOCATOR = By.id("username");
      static final By CONTACT_MESSAGE = By.name("your-message");
-     static final By PASSWORD_LACOTAR = By.cssSelector("#password");
-     static final By ERROR_LOCALOR = By.className("woocommerce-error");
+     static final By PASSWORD_LOCATOR = By.cssSelector("#password");
+     static final By ERROR_LOCATOR = By.className("woocommerce-error");
      static final By REGISTER_LOCATOR = By.id("menu-item-146");
      static final By USER_LOGIN_LOCATOR = By.id("user_login");
      static final By USER_EMAIL = By.id("user_email");

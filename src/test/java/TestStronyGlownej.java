@@ -2,7 +2,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import jdk.jfr.Description;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestStronyGlownej {
@@ -33,7 +32,7 @@ public class TestStronyGlownej {
 
     private static void checkLogoAndSearch() {
         Assertions.assertEquals(Constants.SHOP_NAME, chromeDriver.findElement(Constants.LOGO_LOCATOR).getText());
-        Assertions.assertNotNull(chromeDriver.findElement(Constants.SEARCH_FIELD_LOCTAOR));
+        Assertions.assertNotNull(chromeDriver.findElement(Constants.SEARCH_FIELD_LOCATOR));
     }
 
     @Test

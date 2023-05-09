@@ -1,11 +1,8 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import jdk.jfr.Description;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -45,7 +42,7 @@ public class TestRejestracji {
        chromeDriver.findElement(Constants.USER_EMAIL).sendKeys(timestamp + "flip45flap@gmail.com");
        chromeDriver.findElement(Constants.USER_PASS).sendKeys(timestamp + "Test412345?");
        chromeDriver.findElement(Constants.USER_CONFIRM_PASSWORD).sendKeys(timestamp + "Test412345?");
-       chromeDriver.findElement(Constants.BUUTON_SUBMIT).click();
+       chromeDriver.findElement(Constants.BUTTON_SUBMIT).click();
         WebDriverWait wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(Constants.TIMEOUT_10_S));
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(Constants.SUBMIT_MESSAGE));
 
