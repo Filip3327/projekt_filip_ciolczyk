@@ -1,5 +1,10 @@
-**Opis projektu zaliczenie Filip Ciołczyk**
+**Projekt zaliczeniowy**
 
 1. Założenie repozytorium git 
-2. nowy punkt...
+2. Testy:
+- Strony Głównej
+- Rejestracji
+- Logowania
+- Koszyka
+- Strony kontakt
 
